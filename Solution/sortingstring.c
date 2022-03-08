@@ -1,6 +1,7 @@
 /*WRP to enetr 5 string and print it in sorting order*/
 #include<stdio.h> 
 #include<string.h> 
+#include<conio.h>
 void main()
 { 
     int i,j; 
@@ -10,6 +11,7 @@ void main()
         printf("\n Enter the string a[%d]:",i);
         gets(str[i]); 
     }
+    clrscr();
     printf("\n Enetr string:");
     printf("\n--------------------------");
     for(i=0;i<5;i++) 
